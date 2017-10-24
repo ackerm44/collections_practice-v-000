@@ -21,8 +21,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a,b|
-end
+  second = array.slice!(1)
+  array.insert(2, second)
+
 end
 
 def reverse_array(array)
