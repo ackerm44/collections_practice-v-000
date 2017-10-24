@@ -38,8 +38,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  new_array = []
   array.select do |word|
-    return word if word[0] == "a"
+    if word[0] == "a"
+      new_array << word
+    end
   end
 end
 
