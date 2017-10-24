@@ -31,10 +31,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |word|
+  #array.each do |word|
     word.slice!(2)
     word.insert(2, "$")
-  end
+  #end
 end
 
 def find_a(array)
